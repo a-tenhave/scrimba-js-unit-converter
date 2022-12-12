@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Inter;
+}
+
+.container {
+    margin: 20px;
+    width: 550px;
+    height: 730px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+}
+.container-dark-mode {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 445px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#heading {
+    padding-top: 10px;
+}
+
+#number-input {
+    border: 2px solid #B295FF;
+    background-color: transparent;
+    height: 83px;
+    width: 117px;
+    font-size: 58px;
+    line-height: 25px;
+    border-radius: 5px;
+    color: white;
+    font: Inter;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#validation-text {
+    color: red;
+    text-shadow: 1px 1px 1px #353535;
+    margin-top: 5px;
+    height: 15px;
+}
+
+#convert-btn {
+    background-color: white;
+    color: #3D3D3D;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.conversion {
+    width: 500px;
+    height: 110px;
+    background-color: white;
+}
+.conversion-dark-mode {
+    background-color: #273549;
+}
+
+.conversion-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+    color: #5A537B;
+}
+.conversion-heading-dark-mode {
+    color: #CCC1FF
+}
+
+.conversion-text {
+    font-size: 18px;
+    text-align: center;
+    color: #353535;
+}
+.conversion-text-dark-mode {
+    color: white;
+}
+
+.mode-toggle-btn {
+    background-color: #273549;;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.mode-toggle-btn-dark-mode {
+    background-color: #F4F4F4;
+    color: #353535
+}
+
